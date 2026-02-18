@@ -1,94 +1,35 @@
 ---
-title: 'Development'
-description: 'Preview changes locally to update your docs'
+title: "Manajemen Profil"
+description: "Menu Profil digunakan untuk melihat dan mengelola data pribadi Pengguna pada Portal Akademik. Melalui fitur ini, Anda dapat memperbarui informasi dasar seperti biodata diri, data kewarganegaraan, pengalaman organisasi, serta data pribadi lain yang diperlukan oleh sistem akademik."
 ---
 
-<Info>
-  **Prerequisites**:
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
 
-Follow these steps to install and run Mintlify on your operating system.
+### Mengelola Biodata Pribadi
 
-<Steps>
-<Step title="Install the Mintlify CLI">
+<Note>
+  Langkah mengelola Biodata Mahasiswa juga berlaku untuk mengelola **_Data Orang Tua_** dan **_Data SMA_**.
+</Note>
 
-```bash
-npm i -g mint
-```
-</Step>
+1. **Login pada Portal Akademik menggunakan akun Anda**
 
-<Step title="Preview locally">
+   Masukkan username dan password pada halaman login, kemudian tekan tombol **Login** untuk mengakses fitur-fitur di Portal Akademik.
+2. **Tekan menu Profil**
 
-Navigate to your docs directory where your `docs.json` file is located, and run the following command:
+   Sistem akan menampilkan data pribadi mahasiswa. Terdapat tab **Biodata, Kemahasiswaan, Kewarganegaraan, Lain-lain, Pengalaman Organisasi.**
 
-```bash
-mint dev
-```
+   <Frame>
+     ![Profil Dataprofil](/images/Profil.Dataprofil.png)
+   </Frame>
+3. **Tekan tombol "Ubah" untuk mengubah data yang telah tersimpan**\
+   Anda dapat mengubah data (jika tersedia tomboh Ubah) untuk memperbarui data dan lakukan perubahan sesuai kebutuhan. Anda bisa menyesuaikan dengan tab **Biodata, Kemahasiswaan, Kewarganegaraan, Lain-lain, Pengalaman Organisasi.**
 
-A local preview of your documentation will be available at `http://localhost:3000`.
+   <Frame>
+     ![Profil Ubah Data](/images/Profil.UbahData.png)
+   </Frame>
+4. **Tekan Simpan**
 
-</Step>
-</Steps>
+   Apabila Anda sudah mengubah data klik simpan.
 
-## Custom ports
-
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
-
-```bash
-mint dev --port 3333
-```
-
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
-
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
-
-## Mintlify versions
-
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
-
-```bash
-npm mint update
-```
-
-## Validating links
-
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
-
-```bash
-mint broken-links
-```
-
-## Deployment
-
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img src="/images/checks-passed.png" alt="Screenshot of a deployment confirmation message that says All checks have passed." style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-
-    This may be due to an outdated version of node. Try the following:
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
-
-  <Accordion title="Issue: Encountering an unknown error">
-  
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
+   <Frame>
+     ![Profil Simpan](/images/Profil.Simpan.png)
+   </Frame>

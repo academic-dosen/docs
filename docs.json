@@ -32,13 +32,15 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              "development-copied-1"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Fitur Utama",
             "pages": [
               "essentials/settings",
+              "essentials/settings-copied-1",
               "essentials/navigation"
             ]
           },
