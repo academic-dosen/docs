@@ -37,7 +37,7 @@
             ]
           },
           {
-            "group": "Fitur Utama",
+            "group": "Perkuliahan",
             "pages": [
               {
                 "group": "Perkuliahan",
@@ -47,8 +47,7 @@
                   "main-feature/course-instructor",
                   "main-feature/learning-plan-management"
                 ]
-              },
-              "essentials/navigation"
+              }
             ]
           },
           {
@@ -111,15 +110,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
