@@ -41,7 +41,7 @@
             "pages": [
               {
                 "group": "Perkuliahan",
-                "icon": "chart-line",
+                "icon": "file-lines",
                 "pages": [
                   "main-feature/course-offerings",
                   "main-feature/course-instructor",
@@ -50,14 +50,14 @@
               },
               {
                 "group": "Kehadiran",
-                "icon": "chart-line",
+                "icon": "calendar-clock",
                 "pages": [
                   "main-feature/presence"
                 ]
               },
               {
                 "group": "Nilai",
-                "icon": "chart-line",
+                "icon": "pen-field",
                 "pages": [
                   "main-feature/grade-management",
                   "main-feature/grade-evaluation"
