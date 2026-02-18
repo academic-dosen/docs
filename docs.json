@@ -39,8 +39,15 @@
           {
             "group": "Fitur Utama",
             "pages": [
-              "essentials/settings",
-              "essentials/settings-copied-1",
+              {
+                "group": "Perkuliahan",
+                "icon": "chart-line",
+                "pages": [
+                  "main-feature/course-offerings",
+                  "main-feature/course-instructor",
+                  "main-feature/learning-plan-management"
+                ]
+              },
               "essentials/navigation"
             ]
           },
