@@ -47,6 +47,21 @@
                   "main-feature/course-instructor",
                   "main-feature/learning-plan-management"
                 ]
+              },
+              {
+                "group": "Kehadiran",
+                "icon": "chart-line",
+                "pages": [
+                  "main-feature/presence"
+                ]
+              },
+              {
+                "group": "Nilai",
+                "icon": "chart-line",
+                "pages": [
+                  "main-feature/grade-management",
+                  "main-feature/grade-evaluation"
+                ]
               }
             ]
           },
