@@ -62,6 +62,22 @@
                   "main-feature/grade-management",
                   "main-feature/grade-evaluation"
                 ]
+              },
+              {
+                "group": "Nilai",
+                "icon": "pen-field",
+                "pages": [
+                  "main-feature-copied-1/grade-management",
+                  "main-feature-copied-1/grade-evaluation"
+                ]
+              },
+              {
+                "group": "Nilai",
+                "icon": "pen-field",
+                "pages": [
+                  "main-feature-copied-2/grade-management",
+                  "main-feature-copied-2/grade-evaluation"
+                ]
               }
             ]
           }
