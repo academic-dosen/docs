@@ -64,19 +64,32 @@
                 ]
               },
               {
-                "group": "Nilai",
+                "group": "Bimbingan Akademik",
                 "icon": "pen-field",
                 "pages": [
-                  "main-feature-copied-1/grade-management",
                   "main-feature-copied-1/grade-evaluation"
                 ]
               },
               {
-                "group": "Nilai",
+                "group": "Kampus Merdeka",
                 "icon": "pen-field",
                 "pages": [
-                  "main-feature-copied-2/grade-management",
-                  "main-feature-copied-2/grade-evaluation"
+                  "main-feature-copied-2/grade-management"
+                ]
+              },
+              {
+                "group": "Virtual Class",
+                "icon": "pen-field",
+                "pages": [
+                  "main-feature-copied-3/grade-management",
+                  "main-feature-copied-3/grade-management-copied-5",
+                  "main-feature-copied-3/grade-management-copied-7",
+                  "main-feature-copied-3/grade-management-copied-6",
+                  "main-feature-copied-3/grade-management-copied-4",
+                  "main-feature-copied-3/grade-management-copied-3",
+                  "main-feature-copied-3/grade-management-copied-2",
+                  "main-feature-copied-3/grade-management-copied-1",
+                  "main-feature-copied-3/grade-management-copied-8"
                 ]
               }
             ]
