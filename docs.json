@@ -65,21 +65,21 @@
               },
               {
                 "group": "Bimbingan Akademik",
-                "icon": "pen-field",
+                "icon": "graduation-cap",
                 "pages": [
                   "main-feature-copied-1/grade-evaluation"
                 ]
               },
               {
                 "group": "Kampus Merdeka",
-                "icon": "pen-field",
+                "icon": "people-roof",
                 "pages": [
                   "main-feature-copied-2/grade-management"
                 ]
               },
               {
                 "group": "Virtual Class",
-                "icon": "pen-field",
+                "icon": "chalkboard-user",
                 "pages": [
                   "main-feature-copied-3/grade-management",
                   "main-feature-copied-3/grade-management-copied-5",
