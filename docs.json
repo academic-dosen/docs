@@ -1,31 +1,31 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Dokumentassi Portal Dosen",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f63a4c",
+    "light": "#f63a4c",
+    "dark": "#f63a4c"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "ecampuz.com",
           "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
+          "href": "https://ecampuz.com"
         },
         {
           "anchor": "Blog",
           "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
+          "href": "https://blog.ecampuz.com"
         }
       ]
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Panduan",
         "groups": [
           {
             "group": "Pengenalan",
@@ -96,26 +96,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
     ]
   },
@@ -127,13 +107,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:info@ecampuz.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Aplikasi",
+      "href": "https://staging-et82.ecampuz.com/develop-4/eakademikportal/"
     }
   },
   "contextual": {
@@ -150,9 +130,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://www.instagram.com/ecampuzofficial/",
+      "linkedin": "https://id.linkedin.com/company/ecampuzofficial"
     }
   }
 }
